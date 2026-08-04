@@ -1,0 +1,50 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv-rag/
+env/
+venv/
+
+# Environment and logs
+.env
+.env.local
+logs/
+*.log
+
+# Runtime uploads and caches
+uploads/
+work/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model/cache artifacts
+models/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Local data can be large and environment-specific
+data/
+*.pdf
+*.jpg
+*.png
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+node_modules/
+frontend/node_modules/
+frontend/dist/
